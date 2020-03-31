@@ -1,0 +1,13 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass[standalone]{standalone}
+Input article.layout
+
+ClassOptions
+Other "varwidth, multi"
+End
+
+Preamble
+\standaloneconfig{border=5em}
+\newenvironment{spage}{}{}
+\standaloneenv{spage}
+EndPreamble
